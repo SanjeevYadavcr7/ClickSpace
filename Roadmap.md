@@ -27,6 +27,8 @@
 - **Photography Blogs** - section for photographers to express their knowledge
 - **Marketplace** - place for photographers to sell their work online
 
+
 ## Design Ideas
 
 - **Showcase** - Not sure where but may be we can use [such design](https://photographers.canvera.com/wedding-photostories/aman-weds-salini-by-meow-studio) somewhere
+- **Cover Page** - [Image Panel](https://i.pinimg.com/564x/ae/82/f9/ae82f9e1534737d5fa850665271055af.jpg) at cover page
