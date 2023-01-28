@@ -8,7 +8,6 @@
 
 ## Approved Features
 
-```
 - **Photo of the Day/Trending** - add a banner/notofication to show photo of the day or trending photo
 - **PhotoWall** - contains photos of different categories
 - **Profile section** - Info, profile picture, followers, uploaded photos, saved photos, liked photos
@@ -17,7 +16,6 @@
 - **Photography Blogs** - section for photographers to express their knowledge
 - **Tags** - add tags to imgaes to categorize them and block/remove unwanted images
 
-```
 
 ## Temporary Features
 
