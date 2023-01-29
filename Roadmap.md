@@ -16,7 +16,6 @@
 - **Photography Blogs** - section for photographers to express their knowledge
 - **Tags** - add tags to imgaes to categorize them and block/remove unwanted images
 
-
 ## Temporary Features
 
 - **Collage(future)** - feature that lets user upload images and create a photo collage and may be save it, share or download.
@@ -24,6 +23,9 @@
 - **Pro** - this will include pro features(we dicussed on the call)
 - **Image Filtering(future)** - add automatic image filtering
 - **Marketplace** - place for photographers to sell their work online
+- **Feedback** - feedback form for people to comment on our services
+- **Testimonials** - place to diplay those feedbacks
+- **Available for Work** - feature for people to show whther they are open to work or not
 
 ## Design Ideas
 
