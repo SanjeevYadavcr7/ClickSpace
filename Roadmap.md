@@ -26,18 +26,8 @@
 - **Following** - no of people you follow
 - **Followers** - no of people follow you
 
+
 ## Design Ideas
 
 - **Showcase** - Not sure where but may be we can use [such design](https://photographers.canvera.com/wedding-photostories/aman-weds-salini-by-meow-studio) somewhere
 - **Cover Page** - [Image Panel](https://i.pinimg.com/564x/ae/82/f9/ae82f9e1534737d5fa850665271055af.jpg) at cover page
-
-## Future Ideas
-
-- **Image Filtering** - add automatic image filtering
-- **Collage** - feature that lets user upload images and create a photo collage and may be save it, share or download.
-- **Gift** - feature to send pictures as a gift
-- **Pro** - this will include pro features(we dicussed on the call)
-- **Analytics** - all analytics of your profile and ypur photos
-- **Marketplace** - place for photographers to sell their work online
-- **NFT Marketplace** - can disrupt market with easy NFT creation and selling support
-- **Multiple Creators** - extend the app for image editors, video editors, video ad makers, campaign creators
