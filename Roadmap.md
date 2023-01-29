@@ -5,6 +5,7 @@
 - [Approved Features/Ideas](Roadmap.md#approved-features)
 - [Temporary Features/Ideas](Roadmap.md#temporary-features)
 - [Design Ideas](Roadmap.md#design-ideas)
+- [Future Ideas](Roadmap.md#future-ideas)
 
 ## Approved Features
 
@@ -18,15 +19,24 @@
 
 ## Temporary Features
 
-- **Collage(future)** - feature that lets user upload images and create a photo collage and may be save it, share or download.
-- **Gift** - feature to send pictures as a gift
-- **Pro** - this will include pro features(we dicussed on the call)
-- **Image Filtering(future)** - add automatic image filtering
-- **Marketplace** - place for photographers to sell their work online
 - **Feedback** - feedback form for people to comment on our services
 - **Testimonials** - place to diplay those feedbacks
 - **Available for Work** - feature for people to show whther they are open to work or not
+- **Total Views icon on photos** - shows no of people viewed that photo
+- **Following** - no of people you follow
+- **Followers** - no of people follow you
 
 ## Design Ideas
 
 - **Showcase** - Not sure where but may be we can use [such design](https://photographers.canvera.com/wedding-photostories/aman-weds-salini-by-meow-studio) somewhere
+
+## Future Ideas
+
+- **Image Filtering** - add automatic image filtering
+- **Collage** - feature that lets user upload images and create a photo collage and may be save it, share or download.
+- **Gift** - feature to send pictures as a gift
+- **Pro** - this will include pro features(we dicussed on the call)
+- **Analytics** - all analytics of your profile and ypur photos
+- **Marketplace** - place for photographers to sell their work online
+- **NFT Marketplace** - can disrupt market with easy NFT creation and selling support
+- **Multiple Creators** - extend the app for image editors, video editors, video ad makers, campaign creators
