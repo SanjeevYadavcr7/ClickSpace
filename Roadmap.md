@@ -26,9 +26,10 @@
 - **Feedback** - feedback form for people to comment on our services
 - **Testimonials** - place to diplay those feedbacks
 - **Available for Work** - feature for people to show whther they are open to work or not
-
+- **How it works** - demos for users to understand the platform 
 
 ## Design Ideas
 
 - **Showcase** - Not sure where but may be we can use [such design](https://photographers.canvera.com/wedding-photostories/aman-weds-salini-by-meow-studio) somewhere
-- **Cover Page** - [Image Panel](https://i.pinimg.com/564x/ae/82/f9/ae82f9e1534737d5fa850665271055af.jpg) at cover page
+- **Cover Page1** - [Image Panel](https://i.pinimg.com/564x/ae/82/f9/ae82f9e1534737d5fa850665271055af.jpg) at cover page
+- **Cover Page2** - [](https://dribbble.com/shots/19834629-La-More-Ecommerce-Dashboard)
