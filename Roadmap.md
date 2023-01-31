@@ -2,10 +2,23 @@
 
 **NOTE:** The file holds the summary of the features and ideas being discussed and finalized for ClickSpace.
 
+- [USP](Roadmap.md#usp)
+- [USP Details](Roadmap.md#usp-details)
 - [Approved Features/Ideas](Roadmap.md#approved-features)
 - [Temporary Features/Ideas](Roadmap.md#temporary-features)
 - [Design Ideas](Roadmap.md#design-ideas)
 - [Future Ideas](Roadmap.md#future-ideas)
+
+
+## USP
+- **Find Photographers**
+- **Find Models**
+- **Sell/Rent** - Constumes, Equipments, Places
+
+## USP-Details
+- **Open to work** - Models/Photographers can apply for jobs
+- **Hire** - Give ads and hire models/photographers for work
+
 
 ## Approved Features
 
@@ -37,7 +50,7 @@
 - **Image Filtering** - add automatic image filtering
 - **Collage** - feature that lets user upload images and create a photo collage and may be save it, share or download.
 - **Gift** - feature to send pictures as a gift
-- **Pro** - this will include pro features(we dicussed on the call)
+- **Pro** - this will include pro features(increase reach, export portfolio)
 - **Analytics** - all analytics of your profile and ypur photos
 - **Marketplace** - place for photographers to sell their work online
 - **NFT Marketplace** - can disrupt market with easy NFT creation and selling support
