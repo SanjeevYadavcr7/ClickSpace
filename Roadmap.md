@@ -31,8 +31,8 @@
 
 - **Showcase** - Not sure where but may be we can use [such design](https://photographers.canvera.com/wedding-photostories/aman-weds-salini-by-meow-studio) somewhere
 - **Cover Page1** - [Image Panel](https://i.pinimg.com/564x/ae/82/f9/ae82f9e1534737d5fa850665271055af.jpg) at cover page
-- **Cover Page2** - [](https://dribbble.com/shots/19834629-La-More-Ecommerce-Dashboard)
-- **Home Page** - [](https://dribbble.com/shots/20538530-Graphos-Web-Photo-Marketplace)
+- **Cover Page2** - [Photo Wall](https://dribbble.com/shots/19834629-La-More-Ecommerce-Dashboard)
+- **Home Page** - [Home Page](https://dribbble.com/shots/20538530-Graphos-Web-Photo-Marketplace) idea
 
 ## Future Ideas
 
