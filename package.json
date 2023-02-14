@@ -1,0 +1,19 @@
+{
+  "name": "clickspace",
+  "version": "1.0.0",
+  "description": "A professional platform for photographers and models for displaying their work and get hired",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanjeevYadavcr7/ClickSpace.git"
+  },
+  "author": "Ayush Tripathi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SanjeevYadavcr7/ClickSpace/issues"
+  },
+  "homepage": "https://github.com/SanjeevYadavcr7/ClickSpace#readme"
+}
