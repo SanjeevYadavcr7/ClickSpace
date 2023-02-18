@@ -42,7 +42,7 @@ db.once("open", () => {
  */
 app.use(
   cors({
-    origin: "*",
+    origin: CLIENT_URL,
     methods: "GET, PUT, POST, DELETE, PATCH",
     allowedHeaders: "Content-Type, Authorization",
   })
@@ -67,7 +67,7 @@ app.use((error, req, res, next) => {
   const status = error.statusCode || httpstatusCodes.INTERNAL_SERVER_ERROR;
   const message = error.message;
   const data = error.data;
-  res.status(status).json({ message: message, data: data });
+  res.status(status).json({ message, data });
 });
 
 app.listen(PORT, () => {
