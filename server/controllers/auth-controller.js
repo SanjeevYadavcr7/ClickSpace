@@ -5,7 +5,6 @@ const httpstatusCodes = require("../util/status-codes");
 const { validationResult } = require("express-validator");
 
 exports.postSignup = (req, res, next) => {
-  //##################### Error handler for invalid requests ##########################
   const validationErrors = validationResult(req);
   if (!validationErrors.isEmpty()) {
     const error = new Error("User validation failed");
@@ -14,7 +13,6 @@ exports.postSignup = (req, res, next) => {
     throw error;
   }
 
-  //###################### If request gets validated it comes here #######################
   const email = req.body.email;
   const password = req.body.password;
   const name = req.body.name;
@@ -25,7 +23,6 @@ exports.postSignup = (req, res, next) => {
     name,
   });
 
-  //######################## Before saving there is a preSave method defined in user models #############
   user.save((err) => {
     if (err) {
       if (!err.statusCode)
