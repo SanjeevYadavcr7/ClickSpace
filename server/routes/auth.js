@@ -10,16 +10,16 @@ router.put(
     body("email")
       .isEmail()
       .withMessage("Please enter valid email")
-      .custom(async (value, { req }) => {
-        const userDoc = await User.findOne({ email: value });
+      .custom(async (enteredEmail, { req }) => {
+        const userDoc = await User.findOne({ email: enteredEmail });
         if (userDoc) {
           return Promise.reject("Email already exist");
         }
       })
       .normalizeEmail(),
     body("password").trim().isLength({ min: 8 }),
-    body("confirmPassword").custom((value, { req }) => {
-      if (value != req.body.password) {
+    body("confirmPassword").custom((enteredConfirmPassword, { req }) => {
+      if (enteredConfirmPassword != req.body.password) {
         throw new Error("Passwords do not match");
       }
       return true;
@@ -28,10 +28,4 @@ router.put(
   ],
   authController.postSignup
 );
-
-// router.post('/login', [
-//     body("email")
-//       .isEmail()
-//       .withMessage("Please enter valid email"),
-// ] ,authController.login);
 module.exports = router;
