@@ -12,11 +12,11 @@ const { MONGO_URI, CLIENT_URL, PORT } = require("./config.keys");
 const { default: helmet } = require("helmet");
 
 const authRoutes = require("./routes/auth");
+const httpstatusCodes = require("./util/status-codes");
 
 /**
  * Initializing  Express Server
  */
-
 const app = express();
 
 /**
@@ -64,10 +64,10 @@ app.use("/auth", authRoutes);
  * Error middleware to handle errors
  */
 app.use((error, req, res, next) => {
-  const status = error.statusCode || 500;
+  const status = error.statusCode || httpstatusCodes.INTERNAL_SERVER_ERROR;
   const message = error.message;
   const data = error.data;
-  res.status(status).json({ message: message, data: data });
+  res.status(status).json({ message, data });
 });
 
 app.listen(PORT, () => {
