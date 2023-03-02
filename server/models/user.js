@@ -3,9 +3,17 @@ const Schema = mongoose.Schema;
 const bcrypt = require("bcryptjs");
 
 const userSchema = new Schema({
+  _id: {
+    type: String,
+  },
   name: {
     type: String,
     required: true,
+  },
+  username: {
+    type: String,
+    required: true,
+    index: { unique: true },
   },
   email: {
     type: String,
@@ -16,6 +24,41 @@ const userSchema = new Schema({
     type: String,
     required: true,
   },
+  googleId: {
+    type: String,
+    unique: true,
+    sparse: true,
+  },
+  bio: {
+    type: String,
+  },
+  followers: [
+    {
+      type: Schema.Types.ObjectId,
+      ref: "User",
+    },
+  ],
+  following: [
+    {
+      type: Schema.Types.ObjectId,
+      ref: "User",
+    },
+  ],
+  avatar: {
+    type: String,
+  },
+  photoUploads: [
+    {
+      type: Schema.Types.ObjectId,
+      ref: "Photo",
+    },
+  ],
+  savedPhotos: [
+    {
+      type: Schema.Types.ObjectId,
+      ref: "Photo",
+    },
+  ],
 });
 
 /**
