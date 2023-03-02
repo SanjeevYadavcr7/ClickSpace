@@ -27,6 +27,7 @@ const generateOtpForUser = async (userEmail) => {
     });
 
     await otp.save();
+    return generatedOtp;
   } catch (err) {
     if (!err.statusCode) err.statusCode = httpstatusCodes.INTERNAL_SERVER_ERROR;
     return next(err);
@@ -51,7 +52,7 @@ exports.findEmail = async (req, res, next) => {
         .json({ message: "The user exists in database. Redirect to login" });
     }
 
-    await generateOtpForUser(enteredEmail);
+    const generatedOtp = await generateOtpForUser(enteredEmail);
 
     res
       .status(httpstatusCodes.NOT_FOUND)
@@ -122,7 +123,7 @@ exports.resendOtp = async (req, res, next) => {
   const enteredEmail = req.body.email;
 
   try {
-    await generateOtpForUser(enteredEmail);
+    const generatedOtp = await generateOtpForUser(enteredEmail);
   } catch (err) {
     if (!err.statusCode) err.statusCode = httpstatusCodes.INTERNAL_SERVER_ERROR;
     return next(err);
@@ -150,8 +151,8 @@ exports.postSignup = async (req, res, next) => {
     name,
   });
   try {
-    await user.save();
-
+    const savedUser = await user.save();
+    // LogIn User by sending token + loggedIn
     res
       .status(httpstatusCodes.RESOURCE_CREATED)
       .json({ message: "New User created Successfully" });
