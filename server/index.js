@@ -64,6 +64,7 @@ app.use("/auth", authRoutes);
  * Error middleware to handle errors
  */
 app.use((error, req, res, next) => {
+  console.log(colors.rainbow("Error Occurred"));
   const status = error.statusCode || httpstatusCodes.INTERNAL_SERVER_ERROR;
   const message = error.message;
   const data = error.data;
